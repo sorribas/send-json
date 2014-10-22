@@ -1,0 +1,29 @@
+{
+  "name": "send-json",
+  "version": "1.0.0",
+  "description": "Send JSON over http",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sorribas/send-json"
+  },
+  "keywords": [
+    "json",
+    "http",
+    "send",
+    "api"
+  ],
+  "author": "Eduardo Sorribas <eduardo@sorribas.org> (http://sorribas.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sorribas/send-json/issues"
+  },
+  "homepage": "https://github.com/sorribas/send-json",
+  "devDependencies": {
+    "request": "^2.45.0",
+    "tape": "^3.0.1"
+  }
+}
