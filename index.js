@@ -1,4 +1,4 @@
-module.exports = function(req, res, obj, opts) {
+module.exports = function(res, obj, opts) {
   opts = opts || {};
 
   if (opts.pretty) opts.space = '    ';
