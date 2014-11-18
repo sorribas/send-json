@@ -1,6 +1,8 @@
 send-json
 =========
 
+[![build status](https://secure.travis-ci.org/sorribas/send-json.png)](http://travis-ci.org/sorribas/send-json)
+
 Send objects as JSON over http.
 
 Example
