@@ -14,7 +14,7 @@ var http = require('http');
 var sendJson = require('send-json');
 
 var server = http.createServer(function(req, res) {
-  sendJson(req, res, {hello: 'world'});
+  sendJson(res, {hello: 'world'});
 });
 
 server.listen(3000);
@@ -26,7 +26,7 @@ var http = require('http');
 var sendJson = require('send-json');
 
 var server = http.createServer(function(req, res) {
-  res.send = sendJson.bind(null, req, res);
+  res.send = sendJson.bind(null, res);
 
   res.send({hello: 'world'});
 });
