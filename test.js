@@ -4,7 +4,7 @@ var http = require('http');
 var sendJson = require('./');
 
 http.createServer(function(req, res) {
-  sendJson(req, res, {hello: 'world'});
+  sendJson(res, {hello: 'world'});
 }).listen(3456);
 
 test('basic', function(t) {
